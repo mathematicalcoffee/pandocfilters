@@ -18,7 +18,11 @@ In python, an element is like this:
 
 File: `checkbox.{py, hs}`
 
-Convert github-style checkbox lists by replacing the `[ ]` and `[x]` with unicode U+2610 and U+2611 resp (&#x2610 and &#x2611).
+```
+pandoc --filter ./checkbox.hs checkbox.md
+```
+
+Convert github-style checkbox lists by replacing the `[ ]` and `[x]` with unicode U+2610 and U+2611 resp (&#x2610; and &#x2611;).
 
 Todo:
 
