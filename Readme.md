@@ -63,3 +63,7 @@ Todo:
 
 * I don't have the font in Chrome so they don't render right. Replace with format-specific (e.g. HTML checkbox, latex tickmark)
 
+
+### Todo
+
+Extracts all TODOs from the document (syntax: `(@TODO stuff to do)` or `@TODO <rest of line>`) and creates an index of them, along with a link from each `TODO` marker in the text to its entry in the index.
